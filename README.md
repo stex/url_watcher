@@ -21,6 +21,7 @@ version: "3"
 services:
   app:
     image: sterexx/url_watcher
+    tty: true
     environment:
       PAGE_URL: https://google.com
       WEBHOOK_URL: https://my.webhook.com
